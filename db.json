@@ -1,5 +1,98 @@
 {
-  "users": [{ "id": 1, "name": "Mayra" }],
+  "users": [
+    {
+      "id": 1,
+      "name": "Mayra"
+    },
+    {
+      "name": "Johnny Wilkinson",
+      "id": 2
+    },
+    {
+      "name": "Jordan Pouros",
+      "id": 3
+    },
+    {
+      "name": "Kristina Veum",
+      "id": 4
+    },
+    {
+      "name": "Brooke Zemlak",
+      "id": 5
+    },
+    {
+      "name": "Irwin",
+      "id": 6
+    },
+    {
+      "name": "Myles",
+      "id": 7
+    },
+    {
+      "name": "Devyn",
+      "id": 8
+    },
+    {
+      "name": "Domenico",
+      "id": 9
+    },
+    {
+      "name": "Wanda",
+      "id": 10
+    },
+    {
+      "name": "Clifford",
+      "id": 11
+    },
+    {
+      "name": "Alene",
+      "id": 12
+    },
+    {
+      "name": "Carlotta",
+      "id": 13
+    },
+    {
+      "name": "Hillary",
+      "id": 14
+    },
+    {
+      "name": "Ryley",
+      "id": 15
+    },
+    {
+      "name": "Johan",
+      "id": 16
+    },
+    {
+      "name": "Fernando",
+      "id": 17
+    },
+    {
+      "name": "Antonina",
+      "id": 18
+    },
+    {
+      "name": "Ferne",
+      "id": 19
+    },
+    {
+      "name": "Orland",
+      "id": 20
+    },
+    {
+      "name": "Landen",
+      "id": 21
+    },
+    {
+      "name": "Kavon",
+      "id": 22
+    },
+    {
+      "name": "Carroll",
+      "id": 23
+    }
+  ],
   "albums": [],
   "photos": []
 }
