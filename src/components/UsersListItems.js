@@ -1,8 +1,9 @@
 import { FaTrashCan } from "react-icons/fa6";
-
+import AlbumsList from "./AlbumsList";
 import Button from "./Button";
 import { removeUser } from "../store";
 import { useThank } from "../hooks/use-thunk";
+import ExpandablePanel from "./ExpandablePanel";
 
 function UsersListItems({ user }) {
   const [doRemoveUser, isLoading, error] = useThank(removeUser);
@@ -11,23 +12,26 @@ function UsersListItems({ user }) {
     doRemoveUser(user);
   };
 
+  const header = (
+    <>
+      {" "}
+      <Button
+        className="mr-3"
+        isLoading={isLoading}
+        onClick={handleClick}
+        loading={isLoading}
+      >
+        <FaTrashCan />
+      </Button>
+      {error && <div>Error deleting user.</div>}
+      {user.name}
+    </>
+  );
+
   return (
-    <div className="mb-2 border rounded">
-      <div className="flex p-2 justify-between items-center cursor-pointer">
-        <div className="flex flex-row justify-between">
-          <Button
-            className="mr-3"
-            isLoading={isLoading}
-            onClick={handleClick}
-            loading={isLoading}
-          >
-            <FaTrashCan />
-          </Button>
-          {error && <div>Error deleting user.</div>}
-          {user.name}
-        </div>
-      </div>
-    </div>
+    <ExpandablePanel header={header}>
+      <AlbumsList user={user} />
+    </ExpandablePanel>
   );
 }
 export default UsersListItems;
