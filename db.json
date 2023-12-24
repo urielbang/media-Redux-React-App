@@ -1,18 +1,156 @@
 {
   "users": [
     {
-      "name": "Delmer",
-      "id": 7
+      "name": "Brady",
+      "id": 1
     },
     {
-      "name": "Jacky",
+      "name": "Britney",
+      "id": 2
+    },
+    {
+      "name": "Eugene",
+      "id": 3
+    },
+    {
+      "name": "Sandy",
+      "id": 4
+    },
+    {
+      "name": "Devante",
       "id": 8
     },
     {
-      "name": "Myles",
+      "name": "Tania",
       "id": 9
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Fantastic Steel Gloves",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Oriental Concrete Shoes",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Soft Soap",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Generic Rubber Towels",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "title": "Handcrafted Wooden Car",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "Bespoke Fresh Soap",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "title": "Awesome Cotton Chicken",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "title": "Elegant Frozen Sausages",
+      "id": 8
+    },
+    {
+      "userId": 9,
+      "title": "Fantastic Rubber Chips",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "title": "Generic Metal Salad",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Bronze Hat",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Electronic Bronze Pants",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Plastic Bike",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Metal Table",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Practical Metal Sausages",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "title": "Intelligent Cotton Sausages",
+      "id": 16
+    },
+    {
+      "userId": 3,
+      "title": "Handmade Rubber Gloves",
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "title": "Luxurious Fresh Soap",
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "title": "Small Concrete Tuna",
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "title": "Oriental Plastic Mouse",
+      "id": 20
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Fresh Computer",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "title": "Generic Rubber Hat",
+      "id": 22
+    },
+    {
+      "userId": 9,
+      "title": "Handcrafted Frozen Bacon",
+      "id": 23
+    },
+    {
+      "userId": 9,
+      "title": "Small Granite Computer",
+      "id": 24
+    },
+    {
+      "userId": 4,
+      "title": "Handcrafted Wooden Chips",
+      "id": 25
+    }
+  ],
   "photos": []
 }
