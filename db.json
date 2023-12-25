@@ -17,40 +17,15 @@
       "id": 4
     },
     {
-      "name": "Devante",
-      "id": 8
+      "name": "Roosevelt",
+      "id": 12
     },
     {
-      "name": "Tania",
-      "id": 9
+      "name": "Savion",
+      "id": 13
     }
   ],
   "albums": [
-    {
-      "userId": 1,
-      "title": "Fantastic Steel Gloves",
-      "id": 1
-    },
-    {
-      "userId": 1,
-      "title": "Oriental Concrete Shoes",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "title": "Elegant Soft Soap",
-      "id": 3
-    },
-    {
-      "userId": 1,
-      "title": "Generic Rubber Towels",
-      "id": 4
-    },
-    {
-      "userId": 2,
-      "title": "Handcrafted Wooden Car",
-      "id": 5
-    },
     {
       "userId": 2,
       "title": "Bespoke Fresh Soap",
@@ -65,41 +40,6 @@
       "userId": 2,
       "title": "Elegant Frozen Sausages",
       "id": 8
-    },
-    {
-      "userId": 9,
-      "title": "Fantastic Rubber Chips",
-      "id": 9
-    },
-    {
-      "userId": 1,
-      "title": "Generic Metal Salad",
-      "id": 10
-    },
-    {
-      "userId": 1,
-      "title": "Ergonomic Bronze Hat",
-      "id": 11
-    },
-    {
-      "userId": 1,
-      "title": "Electronic Bronze Pants",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Handmade Plastic Bike",
-      "id": 13
-    },
-    {
-      "userId": 1,
-      "title": "Tasty Metal Table",
-      "id": 14
-    },
-    {
-      "userId": 1,
-      "title": "Practical Metal Sausages",
-      "id": 15
     },
     {
       "userId": 3,
@@ -128,29 +68,50 @@
     },
     {
       "userId": 1,
-      "title": "Elegant Fresh Computer",
-      "id": 21
-    },
-    {
-      "userId": 1,
-      "title": "Generic Rubber Hat",
-      "id": 22
-    },
-    {
-      "userId": 9,
-      "title": "Handcrafted Frozen Bacon",
-      "id": 23
-    },
-    {
-      "userId": 9,
-      "title": "Small Granite Computer",
-      "id": 24
+      "title": "Gorgeous Wooden Shirt",
+      "id": 29
     },
     {
       "userId": 4,
-      "title": "Handcrafted Wooden Chips",
-      "id": 25
+      "title": "Handmade Bronze Car",
+      "id": 30
+    },
+    {
+      "userId": 12,
+      "title": "Intelligent Steel Chair",
+      "id": 32
+    },
+    {
+      "userId": 1,
+      "title": "Gorgeous Steel Keyboard",
+      "id": 33
+    },
+    {
+      "userId": 1,
+      "title": "Handcrafted Steel Gloves",
+      "id": 34
+    },
+    {
+      "userId": 1,
+      "title": "Awesome Cotton Bike",
+      "id": 35
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 29,
+      "url": "https://loremflickr.com/150/150/abstract?lock=560361541468160",
+      "id": 5
+    },
+    {
+      "albumId": 29,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6912519576748032",
+      "id": 6
+    },
+    {
+      "albumId": 29,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7919098553958400",
+      "id": 7
+    }
+  ]
 }
